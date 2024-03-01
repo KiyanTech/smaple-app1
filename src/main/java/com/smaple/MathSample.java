@@ -8,11 +8,13 @@ public class MathSample {
 		return a+b;
 	}
 	public static int subdev1(int a,int b) {
+
 		if(a>b) {
 			return a-b;
 		}else {
 			return b-a;
 		}
+
 	}
 	public static void main(String ...arg) {
 		
