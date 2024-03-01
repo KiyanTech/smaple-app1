@@ -8,8 +8,8 @@ public class MathSample {
 		return a+b;
 	}
 	public static int subdev1(int a,int b) {
-		if(a>b) {
-			return a-b;
+		if(a<b) {
+			return a+b;
 		}
 		return b-a;
 	}
